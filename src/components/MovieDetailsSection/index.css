@@ -1,0 +1,40 @@
+.movie-details-container {
+  padding: 10px;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+}
+.poster-img {
+  width: 120px;
+  margin-right: 10px;
+}
+.specific-movie-details {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(238, 227, 227);
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .backdrop-img {
+    display: none;
+  }
+}
+.detail{
+    color: rgb(78, 104, 196);
+    font-family: "Bree Serif";
+    font-size: 18px;
+    margin: 5px 0;
+}
+.overview{
+    font-family: "Bree Serif";
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.castmembers-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
