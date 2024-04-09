@@ -46,7 +46,11 @@ class Navbar extends React.Component {
       <>
         <div className="navbar">
           <Link to="/">
-            <img src="./src/assets/logo.jpg" className="logo-img" alt="logo" />
+            <img
+              src="https://res.cloudinary.com/dwsbjx12w/image/upload/v1712669565/logo_zadiiw.jpg"
+              className="logo-img"
+              alt="logo"
+            />
           </Link>
           <GiHamburgerMenu
             size={25}
