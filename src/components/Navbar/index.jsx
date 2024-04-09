@@ -33,9 +33,6 @@ class Navbar extends React.Component {
       voteCount: item.vote_count,
     }));
     this.setState({ searchData });
-    // history("/user-search")
-
-    // this.props.history.push("/user-search", { data: searchData });
   };
   onChangeSearch = (e) => this.setState({ search: e.target.value });
 
